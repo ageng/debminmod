@@ -96,6 +96,10 @@ deb-src mirror://mirrors.ubuntu.com/mirrors.txt $RELEASE-updates main restricted
 deb mirror://mirrors.ubuntu.com/mirrors.txt $RELEASE-security main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt $RELEASE-security main restricted universe multiverse
 
+# Add repo PPA PHP
+deb http://ppa.launchpad.net/ondrej/php/ubuntu trusty main 
+deb-src http://ppa.launchpad.net/ondrej/php/ubuntu trusty main
+
 EOF
         fi # End if DISTRO = Ubuntu
 
