@@ -13,6 +13,11 @@ aptitude -y purge nscd bind9 sendmail apache2 apache2.2-common
 aptitude -y install apache2-utils
 
 echo ""
+echo "add keys ppa php"
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E5267A6C
+sleep 5
+
+echo ""
 echo "Configuring /etc/apt/sources.list."
 sleep 5
 ./setup.sh apt
