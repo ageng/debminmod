@@ -1,9 +1,9 @@
 ### Debminmod | TuxLite Fork Readme
 
-Nginx + PHP7 fork. 
+Nginx + PHP5.6 fork. 
 
 Removed Apache, Awstats.
-PHP version is 7 (7.0.6).
+PHP version is 5.6.
 Uses Dotdeb repository for Debian install.
 Ubuntu is not tested currently.
 
